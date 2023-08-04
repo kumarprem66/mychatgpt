@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="side_bar">
+
+        <button class="new_button">New Chat</button>
+        <div class="history">
+
+        </div>
+        <nav>
+            <p>Made by Prem</p>
+        </nav>
+
+    </section>
+
+    <section class="main">
+        <!-- <h1>PremGPT</h1> -->
+
+    
+        <div class="nav_bar">
+          <ul>
+            <li ><a class="active" href="#"><i class="fa fa-home"></i> Home</a>
+                
+            </li>
+            <!-- <li> <a href="#"><i class="fa fa-user"></i> Courses </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">Node</a></li>
+                        <li><a href="#">Mern</a></li>
+
+                    </ul>
+                </div>
+            </li> -->
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="#" id="sign_in">SignIn</a></li>
+            <li><a href="" id="user_name"></a></li>
+          </ul>
+           
+        </div>
+
+      
+        
+
+        <div class="output">
+       
+        </div>
+        
+        <div class="bottom_section">
+            <div class="input_container">
+                <textarea rows="4" cols="40"></textarea>
+                <button id="submit" onclick="getMessage()">➢</button>
+            </div>
+            <p class="info">Chat GPT Mar 14 version.Free Research Preview.Our goal
+                is to make AI system more natural and safe.</p>
+        </div>
+
+
+        <div class="popup">
+            <div class="close-btn">&times;</div>
+            <div class="form">
+              <h2>Register</h2>
+      
+              <div class="form-element">
+                <label for="name" id="label_name">Name</label>
+                <input type="text" id="name" required />
+              </div>
+      
+              <div class="form-element">
+                <label for="name">Enter Email</label>
+                <input type="email" id="email" required />
+              </div>
+             
+              <div class="form-element">
+                <label for="name">Create Password</label>
+                <input type="number" id="password" required />
+              </div>
+
+      
+              <div class="form-element">
+                <input type="submit" id="address_submit" />
+              </div>
+            </div>
+            <p href="" class="already_account">Already a Account</p>
+        </div>
+        <div class="popup_login">
+            <div class="close-btn">&times;</div>
+            <div class="form">
+              <h2>Login</h2>
+              <div class="form-element">
+                <label for="name">Enter Email</label>
+                <input type="email" id="email" required />
+              </div>
+             
+              <div class="form-element">
+                <label for="name">Create Password</label>
+                <input type="number" id="password" required />
+              </div>
+
+      
+              <div class="form-element">
+                <input type="submit" id="address_submit" />
+              </div>
+            </div>
+            
+          </div>
+
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
